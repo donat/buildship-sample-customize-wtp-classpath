@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         point="org.eclipse.buildship.core.projectconfigurators">
+      <configurator
+            class="org.eclipse.buildship.sample.cwc.WtpClasspathConfigurator"
+            id="org.eclipse.buildship.sample.cwcconfigurator"
+            runsAfter="org.eclipse.buildship.configurators.wtp">
+      </configurator>
+   </extension>
+
+</plugin>

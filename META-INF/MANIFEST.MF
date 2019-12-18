@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Buildship sample: Customize WTP classpath
+Bundle-SymbolicName: org.eclipse.buildship.sample.cwc;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Automatic-Module-Name: org.eclipse.buildship.sample.cwc
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Require-Bundle: org.eclipse.buildship.core;bundle-version="3.0.0",
+ org.eclipse.core.runtime,
+ org.eclipse.jdt.core
