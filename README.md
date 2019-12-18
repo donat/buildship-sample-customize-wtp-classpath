@@ -1,0 +1,1 @@
+# buildship-sample-customize-wtp-classpath
